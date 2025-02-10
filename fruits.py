@@ -1,3 +1,5 @@
+import os
+
 
 class FruitCollector:
     # Global instance
@@ -57,6 +59,16 @@ class FruitCollector:
                 new_fruit = {
                     "fruit":added_fruit
                 }
+
+                file_name = "fruits.txt"
+
+                if os.path.exists(file_name):
+                    with open(file_name, "a") as file:
+                        print(added_fruit, file=file)
+                
+                else:
+                    with open(file_name, "w") as file:
+                        print(added_fruit, file=file)
 
                 self.fruits.append(new_fruit)
 
