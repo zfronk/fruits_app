@@ -23,7 +23,7 @@ The Fruit Collector is a simple command-line application built in Python that al
 You can clone the project repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/FruitCollector.git
+git clone https://github.com/yourusername/fruits_app.git
 ```
 
 ## How to Run
