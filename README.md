@@ -30,10 +30,10 @@ git clone https://github.com/yourusername/FruitCollector.git
 
 1. Navigate to the directory containing the project.
 2. Open a terminal or command prompt.
-3. Run the `fruit_collector.py` script:
+3. Run the `fruits.py` script:
 
    ```bash
-   python fruit_collector.py
+   python fruits.py
    ```
 
 This will start the application and show the main menu with available options.
